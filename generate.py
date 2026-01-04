@@ -10,6 +10,7 @@ RULES_FILE = "rules_list.json"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 def extract_domains_adguard(text):
+    """提取 AdGuard ||domain^ 格式的域名"""
     domains = set()
     for line in text.splitlines():
         line = line.strip()
@@ -20,8 +21,12 @@ def extract_domains_adguard(text):
     return sorted(domains)
 
 def filename_from_url(url):
-    path = urlparse(url).path
-    name = os.path.basename(path)
+    """生成唯一 JSON 文件名，避免多个规则文件覆盖"""
+    path = urlparse(url).path.strip("/").split("/")
+    if len(path) >= 2:
+        name = f"{path[-2]}_{path[-1]}"
+    else:
+        name = path[-1]
     if name.endswith(".txt"):
         name = name[:-4]
     name = name.replace("-", "_").replace(".", "_")
@@ -52,6 +57,8 @@ def main():
         out_path = os.path.join(OUTPUT_DIR, output)
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(result, f, indent=2, ensure_ascii=False)
+
+        print(f"Saved {len(domains)} domains to {out_path}")
 
 if __name__ == "__main__":
     main()
