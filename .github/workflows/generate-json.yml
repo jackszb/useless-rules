@@ -1,0 +1,44 @@
+name: Generate AdGuard JSON Rules
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ 拉取仓库
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2️⃣ 设置 Python
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      # 3️⃣ 安装 requests
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      # 4️⃣ 确保 json 文件夹存在
+      - name: Ensure json directory exists
+        run: |
+          mkdir -p json
+
+      # 5️⃣ 运行 Python 脚本生成 JSON 文件
+      - name: Generate JSON rules
+        run: |
+          python generate.py
+
+      # 6️⃣ 提交并推送生成的 JSON 文件
+      - name: Commit and push JSON files
+        run: |
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "GitHub Actions"
+
+          git add json/*.json
+          git commit -m "Update AdGuard JSON rules" || echo "No changes"
+          git push
