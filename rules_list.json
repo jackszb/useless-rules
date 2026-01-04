@@ -1,0 +1,5 @@
+[
+  "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/security/filter_30_PhishingURLBlocklist/filter.txt",
+  "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/other/filter_37_NoGoogle/filter.txt",
+  "https://raw.githubusercontent.com/mullvad/dns-blocklists/main/output/doh/doh_adblock.txt"
+]
