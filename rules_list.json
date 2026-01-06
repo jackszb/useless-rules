@@ -10,5 +10,6 @@
   "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/general/filter_34_HageziMultiNormal/filter.txt",
   "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/general/filter_48_HageziMultiPro/filter.txt",
   "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/general/filter_49_HageziUltimate/filter.txt",
-  "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/general/filter_51_HageziPro++/filter.txt"
+  "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/general/filter_51_HageziPro++/filter.txt",
+  "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/other/filter_67_HageziAppleTrackerBlocklist/filter.txt"
 ]
