@@ -1,6 +1,10 @@
 [
   "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/security/filter_30_PhishingURLBlocklist/filter.txt",
   "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/other/filter_37_NoGoogle/filter.txt",
+  "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/general/filter_5_OISD_Blocklist_Small/filter.txt",
   "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/general/filter_27_OISD_Blocklist_Big/filter.txt",
-  "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/general/filter_3_PeterLoweFilter/filter.txt"
+  "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/general/filter_3_PeterLoweFilter/filter.txt",
+  "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/general/filter_69_ShadowWhispererTrackingList/filter.txt",
+  "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/general/filter_24_1Hosts_Lite/filter.txt",
+  "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/general/filter_70_1Hosts_Xtra/filter.txt"
 ]
