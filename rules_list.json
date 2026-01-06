@@ -6,5 +6,9 @@
   "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/general/filter_3_PeterLoweFilter/filter.txt",
   "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/general/filter_69_ShadowWhispererTrackingList/filter.txt",
   "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/general/filter_24_1Hosts_Lite/filter.txt",
-  "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/general/filter_70_1Hosts_Xtra/filter.txt"
+  "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/general/filter_70_1Hosts_Xtra/filter.txt",
+  "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/general/filter_34_HageziMultiNormal/filter.txt",
+  "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/general/filter_48_HageziMultiPro/filter.txt",
+  "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/general/filter_49_HageziUltimate/filter.txt",
+  "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/general/filter_51_HageziPro++/filter.txt"
 ]
