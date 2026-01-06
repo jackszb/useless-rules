@@ -1,4 +1,5 @@
 [
   "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/security/filter_30_PhishingURLBlocklist/filter.txt",
-  "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/other/filter_37_NoGoogle/filter.txt"
+  "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/other/filter_37_NoGoogle/filter.txt",
+  "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/general/filter_27_OISD_Blocklist_Big/filter.txt"
 ]
